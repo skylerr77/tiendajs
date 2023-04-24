@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+}
+.contenedor{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    background-color: aqua;
+}
+.tres{
+    display: flex;
+    flex-direction: row;
+}
