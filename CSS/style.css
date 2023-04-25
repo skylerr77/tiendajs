@@ -8,7 +8,7 @@ html,body{
     height: 100%;
 }
 .contenedor{
-    background-image: url("../fotos/colorcel.jpg");
+    background-image: url("../IMG/colorcel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
