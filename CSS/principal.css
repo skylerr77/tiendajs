@@ -16,11 +16,12 @@ header{
     height: 7%;
     display: flex;
     align-items: center;
-    background-color: aqua;
-    border: 1px solid green;
+    background-color: white;
+    color: orange;
+    font-weight: 700;
 }
 .header_1{
-    width: 100%;
+    width: 100%; 
     display: flex;
     flex-direction: row;
     padding-left: 5%;
@@ -36,17 +37,21 @@ header{
 .title{
     text-align: center;
     margin-bottom: 2%;
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
 }
 .imagen_texto{
     display: flex;
     justify-content: space-between;
     border: solid red 1px;
+    color: #fff;
 
 }
 .main_1{
     width: 100%;
     height: 100vh;
     padding: 0 5%;
+    background-color: palevioletred;
 }
 .carrusel_fotos{
     width: 50%;
@@ -56,6 +61,8 @@ header{
 .texto{
     width: 50%;
     height: 100%;
+    padding-top: 3%;
+    padding-right: 5%;
 }
 img{
     width: 100%;
@@ -64,7 +71,7 @@ img{
 }
 .main_2{
     width: 100%;
-    padding: 0 5%;
+    height: 60%;
     border: solid green 1px;
     display: flex;
     flex-direction: row;
@@ -75,20 +82,22 @@ img{
 }
 .tarjetas{
     border: red solid 1px;
-    width: 20%;
-    height: 70%;
+    width: 30%;
+    height: 100%;
     padding: 1%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 }
 .imagen_tarjeta{
     padding: 5%;
-    height: 20%;
+    height: 40%;
     width: fit-content;
 }
+
 .texto_tarjeta{
     height: 20%;
     text-align: justify;
@@ -102,6 +111,8 @@ img{
 .boton_tarjetas{
     background-color: aqua;
     border: cadetblue 1px solid;
+    border-radius: 10px;
+    padding: 5%;
 }   
 .ventana_modal{
     width: 100vw;
@@ -109,21 +120,32 @@ img{
     background-color: #000;
     position: fixed;
     top:0;
-    color: #fff;
+    color: #000;
     display: none;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 .modal{
     cursor: pointer;
-    width: 50%;
-    height: 35%;
-    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    margin: auto;
 
 }
 .modal_close{
     background-color: red;
     width: 2%;
     color: #000;
+}
+.botones{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.boton_cancelar{
+    background-color: red;
+    border: red solid 1px;
+   
+    padding: 5%;
+    border-radius: 10px;
 }
