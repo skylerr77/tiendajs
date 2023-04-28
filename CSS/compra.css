@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body, html{
+  width: 100%;
+  height: 100%;
+  background-image: url("../IMG/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,h2{
+  width: 40%;
+  padding-top: 10%;
+  text-shadow: 0 0 15px white;
+  text-align: center;
+  color: white;
+  display: block;
+  margin: auto;
+}
+h2{
+  padding-bottom: 5%;
+}
+.btn_compra{
+  display: block;
+  margin: auto;
+  background-color: cadetblue;
+  padding: 1%;
+  border: solid 1px cadetblue;
+  border-radius: 5px;
+}
